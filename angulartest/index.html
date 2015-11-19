@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test</title>
+		<link rel="stylesheet" href="/res/css/angular-chart.css"/>
+	</head>
+	<body ng-app="tweb">
+	<ul>
+		<li><a href="#">Participate</a></li>
+		<li><a href="#Admin">Admin</a></li>
+		<li><a href="#View">View</a></li>
+
+	</ul>
+		<div>
+			<div class="slide" ng-view></div>
+		</div>
+		<script src="res/js/frameworks/angular.min.js"></script>
+		<script src="res/js/frameworks/angular-route.min.js"></script>
+		<script src="res/js/custom/main.js"></script>
+		<script src="res/js/frameworks/Chart.js"></script>
+		<script src="res/js/frameworks/angular-chart.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+	</body>
+</html>
